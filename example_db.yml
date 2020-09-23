@@ -1,0 +1,16 @@
+UsersTable:
+ columns:
+  ID: UInt64
+  UserGroup: UInt2
+  Name: String
+ primary_keys:
+ - UserGroup
+MessagesTable:
+ columns:
+  ID: UInt64
+  UserID: UInt64
+  Caption: String
+  CreatedAt: DateTime
+  UpdatedAt: DateTime
+ primary_keys: []
+ 
